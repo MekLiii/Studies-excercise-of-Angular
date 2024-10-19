@@ -1,0 +1,28 @@
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: black;
+}
+.carousel {
+  width: 800px;
+  height: 600px;
+  margin: auto;
+}
+
+.carousel-inner img {
+  width: 800px;
+  height: 600px;
+  object-fit: cover;
+}
+.about-me {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.about-me h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.about-me p {
+  font-size: 18px;
+}
