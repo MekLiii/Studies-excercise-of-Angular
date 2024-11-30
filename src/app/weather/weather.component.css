@@ -1,0 +1,19 @@
+.weather-card-container {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+.weather-card {
+  width: 300px;
+  margin: 10px;
+}
+
+mat-card-title {
+  display: flex;
+  align-items: center;
+}
+
+mat-icon {
+  margin-right: 5px;
+}

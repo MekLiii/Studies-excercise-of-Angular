@@ -1,0 +1,15 @@
+
+<div *ngFor="let city of cities" class="weather-card-container">
+  <mat-card *ngIf="weatherData[city]" class="weather-card">
+    <mat-card-header>
+      <mat-card-title>
+        Weather in {{ city }}
+      </mat-card-title>
+    </mat-card-header>
+    <mat-divider></mat-divider>
+    <mat-card-content>
+      <p>Temperature: {{ weatherData[city]?.current?.temp_c }}°C</p>
+      <p> Condition: {{ weatherData[city]?.current?.condition?.text }}</p>
+    </mat-card-content>
+  </mat-card>
+</div>
